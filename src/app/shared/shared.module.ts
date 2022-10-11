@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CommentsComponent } from './components/comments/comments.component';
-import { MaterialModule } from './components/comments/material.module';
+import { MaterialModule } from './material.module';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { ShortenPipe } from './pipes/shorten.pipe';
 import { TimeAgoPipe } from './pipes/time-ago.pipe';
